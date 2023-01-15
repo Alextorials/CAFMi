@@ -1,0 +1,206 @@
+/* CSS Libraries Used 
+
+*Animate.css by Daniel Eden.
+*FontAwesome 4.7.0
+*Typicons
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+
+body, html {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color:#d7ede6;
+  padding: 0;
+  margin: 0;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  margin: 0;
+  top: 100px;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  background-color:  #ffffff;
+  border-radius: 9px;
+  border-top: 10px solid  #bfbfbf;
+  border-bottom: 10px solid  #bfbfbf;
+  width: 400px;
+  height: 600px;
+ 
+}
+
+.box h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #001191; 
+  font-size: 40px;
+  margin-top:94px;;
+}
+
+.box h4 span {
+  color: #0e00a3;
+  font-weight: normal;
+}
+
+.box h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  color: #0d009e;
+  letter-spacing: 1.5px;
+  margin-top: -15px;
+  margin-bottom: 70px;
+}
+
+.box input[type = "text"],.box input[type = "password"] {
+  display: block;
+  margin: 20px auto;
+  background: #f7f8f5;
+  border: 0;
+  border-radius: 5px;
+  padding: 14px 10px;
+  width: 320px;
+  outline: none;
+  color: #2c2b36;
+      -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+  
+}
+::-webkit-input-placeholder {
+  color: #565f79;
+}
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus {
+  border: 1px solid  #2c2b36;
+  
+}
+
+a{
+  color: #416ec0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ label input[type = "checkbox"] {
+  display: none; /* hide the default checkbox */
+}
+
+/* style the artificial checkbox */
+label span {
+  height: 13px;
+  width: 13px;
+  border: 2px solid #464d64;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  left: 7.5%;
+}
+
+.btn1 {
+  border:0;
+  background:  #2C3C5B;
+  color: #ffffff;
+  border-radius: 100px;
+  width: 340px;
+  height: 49px;
+  font-size: 16px;
+  margin-top: 10px;
+  position: absolute;
+  top: 79%;
+  left: 8%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background: #5a91ea;
+}
+
+.remember {
+  position: absolute;
+  margin-left: -10%;
+  margin-top: 0px;
+  color: #000001;
+  font-size: 13px;
+}
+
+.forgetpass {
+  position: relative;
+  float: center;
+ /* right: 28px;*/
+}
+
+.dnthave{
+    position: absolute;
+    top: 92%;
+    left: 27%;
+}
+
+[type=checkbox]:checked + span:before {/* <-- style its checked state */
+    font-family: FontAwesome;
+    font-size: 16px;
+    content: "\f00c";
+    position: absolute;
+    top: -4px;
+    color: #64ea5a;
+    left: -1px;
+    width: 13px;
+}
+
+.typcn {
+  position: absolute;
+  left: 339px;
+  top: 282px;
+  color: #3b476b;
+  font-size: 22px;
+  cursor: pointer;
+}      
+
+.typcn.active {
+  color: #5a91ea;
+}
+
+.error {
+  background: #ff3333;
+  text-align: center;
+  width: 337px;
+  height: 20px;
+  padding: 2px;
+  border: 0;
+  border-radius: 5px;
+  margin: 10px auto 10px;
+  position: absolute;
+  top: 31%;
+  left: 7.2%;
+  color: white;
+  display: none;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    top: 605px;
+    width: 100%;
+    color: #78797d;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer .fa {
+  color:  #5a91ea;;
+}
