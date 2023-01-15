@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+
+
+body, html {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color:#d7ede6;
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+  .box h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #001191; 
+    font-size: 40px;
+    margin-top:20px;;
+  }
+  
+
+
+  
+.container{
+    margin: 0;
+    top: 80px;
+   padding-bottom:  40px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translateX(-50%);
+    background-color:  #ffffff;
+    border-radius: 9px;
+    border-top: 10px solid  #bfbfbf;
+    border-bottom: 10px solid  #bfbfbf;
+    width: 400px;
+    height: 600px;
+    
+    
+   
+  }
+
+  .check {
+    position: absolute;
+    margin-left: -10%;
+    margin-top: 0px;
+    color: #000001;
+    font-size: 13px;
+  }
+
+
+  .btn1 {
+    border:0;
+    background:  #2C3C5B;
+    color: #ffffff;
+    border-radius: 100px;
+    width: 340px;
+    height: 49px;
+    font-size: 16px;
+    margin-top: 10px;
+   position: absolute;
+    top: 90%;
+    left: 8%;
+    transition: 0.3s;
+    cursor: pointer;
+  
+  }
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
